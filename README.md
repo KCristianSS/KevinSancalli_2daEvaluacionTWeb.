@@ -1,5 +1,51 @@
-# Vue 3 + Vite
+INSTALACIÓN Y EJECUCIÓN
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Clonar el repositorio desde GitHub.
+Ejecutar el siguiente comando para instalar las dependencias: npm install
+Iniciar el servidor de desarrollo con: npm run dev
+Abrir el navegador y entrar a la dirección que aparece, generalmente http://localhost:5173
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+
+
+FUNCIONALIDAD DEL PROYECTO
+
+Página de Inicio donde se presenta el portal.
+Página de Personajes donde se listan personajes de la saga de Star Wars.
+Cada personaje muestra información como:
+
+Nombre
+Altura
+Peso
+Género
+Color de piel
+Color de pelo
+Color de ojos
+Año de nacimiento
+
+Paginación básica con botones "Anterior" y "Siguiente" para recorrer los personajes.
+Estilo visual inspirado en Star Wars: textos amarillos, y tarjetas en tonos oscuros.
+
+
+
+TECNOLOGÍAS UTILIZADAS
+
+Vue.js 3
+Vite
+Vue Router
+Fetch API
+CSS (Flexbox y Grid para diseño responsive)
+
+
+
+NAVEGACIÓN
+
+Ruta "/" muestra la página de Inicio.
+Ruta "/people" muestra la lista de personajes con paginación.
+
+
+
+API CONSUMIDA
+
+SWAPI.tech - API pública de Star Wars
+Endpoint utilizado: https://www.swapi.tech/api/people
+
